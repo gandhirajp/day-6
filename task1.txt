@@ -1,0 +1,61 @@
+1)Display the asterisk pattern as shown below(No loop needed)
+
+console.log ("*****");
+console.log ("*****");
+console.log ("*****");
+console.log ("*****");
+console.log ("*****");
+
+2)Write a loop that makes seven calls to console.log to output the following triangle:
+ 
+for(i=0; i<=6; i++){
+    var b="";
+    var num=i+1;
+   for(var j=0; j<num; j++){
+       b=b+"#";
+   }
+   console.log (b)
+}
+
+3)Print the contents of the input variable
+
+var input = [
+["0001", 'Roman Alamsyah', 'Bandar Lampung', '21/05/1989', 'Membaca'],
+['0002', 'Dika Sembiring', 'Medan', '10/10/1992', 'Bermain Gitar'],
+['0003', 'Winona', 'Ambon', '25/12/1965', 'Memasak'],
+['0004', 'Bintang Senjaya', 'Martapura', '6/4/1970', 'Berkebun']
+];
+function dataHandling(hi){
+for (var i = 0; i < input.length; i++) {
+//Your code goes here
+return input;
+}
+}
+console.log(dataHandling(input))
+
+4)
+Write a code to print the numbers in the array
+Output: 1234567891011
+
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+ 
+for (var i =0; i < numsArr.length; i++) {
+ new_string += numsArr[i] 
+}
+console.log(new_string);
+
+5)
+Find the culprit
+fix.html
+
+<!DOCTYPE html>
+
+<html>
+<body>
+ <script>
+ alert( "I'm JavaScript!");
+ </script>
+ Whats the error in this ?
+</body>
+</html>
